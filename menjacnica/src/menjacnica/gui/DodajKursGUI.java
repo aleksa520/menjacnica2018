@@ -168,8 +168,8 @@ public class DodajKursGUI extends JFrame {
 			btnDodaj.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
 					GUIKontroler.unesiKurs(textFieldNaziv.getText(), textFieldSkraceniNaziv.getText(),
-							(Integer)(spinnerSifra.getValue()), textFieldProdajniKurs.getText(), textFieldSrednjiKurs.getText(),
-							textFieldKupovniKurs.getText());
+							(Integer) (spinnerSifra.getValue()), textFieldProdajniKurs.getText(),
+							textFieldSrednjiKurs.getText(), textFieldKupovniKurs.getText());
 					dispose();
 				}
 			});
