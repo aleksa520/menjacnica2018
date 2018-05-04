@@ -64,9 +64,6 @@ public class MenjacnicaGUI extends JFrame {
 	private JMenuItem mntmSave;
 	private JMenuItem mntmExit;
 	private JMenuItem mntmAbout;
-
-	// klasa na logickom nivou
-	protected Menjacnica sistem;
 	private JTable table;
 
 	/**
